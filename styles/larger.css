@@ -1,0 +1,15 @@
+@media screen and (min-width: 500px) {
+    nav {
+        display: flex;
+        padding: 5px;
+        width: 100%;
+        justify-content: space-around;
+    }
+    .cards {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+    .card {
+        box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.5);
+    }
+}
