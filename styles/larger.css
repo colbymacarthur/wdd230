@@ -5,6 +5,18 @@
         width: 100%;
         justify-content: space-around;
     }
+    #menu {
+		display: none; /* hide hamburger button */
+	}
+
+	.navigation {
+		flex-direction: row;
+	}
+
+	.navigation a {
+		display: block;
+		flex: 1 1 100%;
+	}
     .cards {
         display: grid;
         grid-template-columns: 2fr 1fr;
