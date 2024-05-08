@@ -23,6 +23,7 @@ button.addEventListener('click', () => {
 });
 
 let chaptersArray = getChapterList() || [];
+
 chaptersArray.array.forEach(chapter => {
     displayList(chapter);
 });
