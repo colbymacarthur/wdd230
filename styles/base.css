@@ -38,7 +38,7 @@ nav {
 
 
 #menu.open::before {
-	content: "Close";
+	content: "❌";
 }
 
 .navigation {
