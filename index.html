@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="icon" href="images/skull.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
     <meta property="og:title" content="Colby MacArthur WDD 230">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://www.davishighnews.com/wp-content/uploads/2022/03/hsdavis-1-900x318.jpg">
@@ -17,7 +20,7 @@
 </head>
 <body>
     <header>
-        <img src="images/profilepic.jpg" alt="Profile Image">  <span>Colby MacArthur</span>
+        <img src="images/profilepic.webp" alt="Profile Image">  <span>Colby MacArthur</span>
     </header>
     <button id="menu"></button>
     <div id="mode">
@@ -57,14 +60,16 @@
             </section>
             <section class="card">
                 <h2>Information</h2>
-                <span>Weather</span>
-                <span>Visits</span>
+                <p>Weather</p>
+                <p><span class="label">Number of Visits: </span><span class="visits"></span></p>
 
             </section>
         </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d31200.488850574853!2d-91.81491172407573!3d18.65103339500395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2smx!4v1715306442514!5m2!1ses-419!2smx" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
     </main>
     <footer>
-        <p>&copy; <span id="year"></span> Colby MacArthur  <img src="images/flag.jpg" alt="USA and Mexico"></p>
+        <p>&copy; <span id="year"></span> Colby MacArthur  <img src="images/flag.webp" alt="USA and Mexico" loading="lazy"></p>
         <p id="lastModified"></p>
 
     </footer>

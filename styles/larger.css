@@ -19,7 +19,7 @@
 	}
 
     .hero {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
     }
 
     .hero span { 
@@ -35,5 +35,9 @@
     }
     .card a {
         padding: 10px;
+    }
+
+    iframe {
+        height: 500px;
     }
 }
