@@ -17,6 +17,15 @@
 		display: block;
 		flex: 1 1 100%;
 	}
+
+    .hero {
+        font-size: 1.5rem;
+    }
+
+    .hero span { 
+        width: 50%;
+    }
+
     .cards {
         display: grid;
         grid-template-columns: 2fr 1fr;
