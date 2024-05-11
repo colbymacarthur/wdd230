@@ -1,0 +1,25 @@
+@media screen and (min-width: 500px) {
+    nav {
+        display: flex;
+        padding: 5px;
+        width: 100%;
+        justify-content: space-around;
+    }
+
+    #menu {
+		display: none; /* hide hamburger button */
+	}
+
+	.navigation {
+		flex-direction: row;
+	}
+
+	.navigation a {
+		display: block;
+		flex: 1 1 100%;
+	}
+
+    header {
+        font-size: 2rem;
+    }
+}

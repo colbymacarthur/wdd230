@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 header {
     background-color: #052F5F;
     color: #DAD2BC;
@@ -13,9 +14,11 @@ header {
     font-size: 3rem;
     font-family: "Dancing Script";
 }
+
 header img {
     padding: 1rem;
 }
+
 nav {
     display: grid;
     grid-template-columns: 1fr;
@@ -39,8 +42,6 @@ nav {
     padding-left: .5rem;
     padding-right: .5rem;
 }
-
-
 
 #menu.open::before {
 	content: "❌";
