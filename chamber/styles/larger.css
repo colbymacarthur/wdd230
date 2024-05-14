@@ -22,4 +22,18 @@
     header {
         font-size: 2rem;
     }
+
+    /* Discover */
+    .discover {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+    }
+    
+    .galery {
+        grid-column: 2 / 3;
+    }
+
+    .side {
+        grid-column: 1 / 2;
+    }
 }

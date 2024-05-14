@@ -161,15 +161,13 @@ footer p {
 
 /* discover */
 
-.discover {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-}
-
 .galery {
-    grid-column: 2 / 3;
     display: grid;
     width: 90%;
+    text-align: center;
+}
+
+.side {
     text-align: center;
 }
 
@@ -188,7 +186,3 @@ footer p {
     width: 70%;
 }
 
-.side {
-    grid-column: 1 / 2;
-    text-align: center;
-}
