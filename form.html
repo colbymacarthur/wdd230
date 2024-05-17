@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colby MacArthur - WDD 230 - Web Frontend Development</title>
+    <meta name="description" content="Colby MacArthur's WDD 230 - Web frontend development course assingment portal">
+    <meta name="author" content="Colby Hoyt MacArthur">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="icon" href="images/skull.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    <meta property="og:title" content="Colby MacArthur WDD 230">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://www.davishighnews.com/wp-content/uploads/2022/03/hsdavis-1-900x318.jpg">
+    <meta property="og:url" content="https://colbymacarthur.github.io/wdd230/">
+</head>
+<body>
+
+    <header>
+        <img src="images/profilepic.webp" alt="Profile Image">  <span>Colby MacArthur</span>
+    </header>
+
+    <button id="menu"></button>
+    <div id="mode">
+        💡/🕶️
+    </div>
+
+    <nav class="navigation">
+        <a href="index.html">Home</a>
+        <a href="chamber/index.html">Chamber</a>
+        <a href="week01/chamber-site-plan.html">Site Plan</a>
+        <a href="form.html" class="active">Form</a>
+    </nav>
+
+    <main>
+        <h1>Form Team Activity</h1>
+        <form method="get" action="record.html" class="form1">
+            <fieldset>
+                <legend>User Information</legend>
+                <label>Username *
+                    <input type="text" name="user" id="username" required>
+                </label>
+                <label>Password *
+                    <input type="password" name="password1" id="pass1" required 
+                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+                    title="Must have at least one lower case, one upper case and one number">
+                </label>
+                <div id="errormessage"></div>
+                <label>Confirm Password *
+                    <input type="password" name="password2" id="pass2" required>
+                </label>
+                <label>Email *
+                    <input type="email" name="email" id="email" required>
+                </label>
+                <label>Page Rating</label>
+                <div id="ratingValue">0</div>
+                <input type="range" name="rating" id="ratingInput" min="0" max="10" value="0" step="1" list="rangevalues" width="400px">
+                <datalist id="rangevalues">
+                    <option value="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                    <option value="5"></option>
+                    <option value="0"></option>
+                    <option value="7"></option>
+                    <option value="8"></option>
+                    <option value="9"></option>
+                    <option value="10"></option>
+                </datalist>
+            </fieldset>
+            <label>
+                <input type="submit">
+            </label>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Colby MacArthur  <img src="images/flag.webp" alt="USA and Mexico" loading="lazy"></p>
+        <p id="lastModified"></p>
+    </footer>
+    <script src="scripts/getDates.js"></script>
+    <script src="scripts/formvalidation.js"></script>
+</body>
+</html>
