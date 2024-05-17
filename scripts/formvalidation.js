@@ -2,20 +2,22 @@ const pw1 = document.querySelector("#pass1");
 const pw2 = document.querySelector("#pass2");
 const error = document.querySelector("#errormessage");
 
-pw2.addEventListener("focusout", checkSame);
+pw2.addEventListener("keyup", checkSame);
 
 function checkSame() {
-    if (pw1.value !==  kp2.value) {
-        error.textContent = "Password doesn't match!";
-        error.style.visibility = "show";
-        pw2.style.backgroundColor = "#fff";
-        pw2.style.color = "000";
-    } else {
-        message.style.display = "none";
-        pw2.style.backgroundColor = "#fff";
-        pw2.style.color = "#000";
-    }
+  if (pw1.value !== pw2.value) {
+    error.textContent = "Passwords don't match!";
+    error.style.visibility = "visible"; 
+    pw2.style.backgroundColor = "#f00"; 
+    pw2.style.color = "#fff"; 
+  } else {
+    error.textContent = ""; 
+    error.style.visibility = "hidden"; 
+    pw2.style.backgroundColor = "#fff"; 
+    pw2.style.color = "#000"; 
+  }
 }
+
 
 // 
 const ratingInput = document.getElementById("ratingInput");
