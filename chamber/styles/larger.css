@@ -36,4 +36,12 @@
     .side {
         grid-column: 1 / 2;
     }
+
+    .form1 {
+        width: 500px;
+    }
+
+    .form1 input[type="submit"] {
+        margin: .8rem 50px 2rem 50px;
+    } 
 }

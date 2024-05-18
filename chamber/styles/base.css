@@ -186,3 +186,70 @@ footer p {
     width: 70%;
 }
 
+/* -------- FORM ----------*/
+:root {
+    --primary-color: #016637;  
+    --secondary-color: #6fcb47; 
+    --min-height: 50px;        
+  }
+  
+  .form1 label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form1 input[type="text"],
+  .form1 input[type="password"],
+  .form1 input[type="email"],
+  .form1 input[type="range"],
+  .form1 input[type="tel"]
+  {
+    display: block;
+  }
+  
+  .form1 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form1 {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  label {
+    height: var(--min-height);
+  }
+  
+  .form1 input[type="submit"] {
+    border: none;
+    background-image: linear-gradient(var(--secondary-color), var(--primary-color));  
+    color: #fff;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 400px;
+    margin: .8rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px #999;
+  }
+
+  .form1 input:required:valid {
+    border-left: solid 8px green;
+}
+
+.box {
+    border: solid 2px #016637;
+    padding: 20px;
+    background: rgba(237, 255, 231, 0.8);
+    box-shadow: 5px 3px 2px #999;
+}
+
+.box legend {
+    font-size: 2rem;
+    color: #016637;
+}
+
+.thankyou h2 {
+    text-align: center;
+}
+
