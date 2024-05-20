@@ -1,0 +1,23 @@
+{
+    "familyName": "Hart",
+    "moveDate": "12 january 2012",
+    "memberCount": 5,
+    "bishopMeeting": true,
+    "members": [
+        {
+            "name": "John",
+            "gender": "Male",
+            "birthday": "15 May 1989"
+        },
+        {
+            "name": "Alissa",
+            "gender": "Female",
+            "birthday": "18 June 1989"
+        },
+        {
+            "name": "Brynn",
+            "gender": "Female",
+            "birthday": "25 November 2014"
+        }
+    ]
+}

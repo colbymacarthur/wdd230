@@ -1,0 +1,29 @@
+#cards {
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); 
+    background-color: rgb(200, 200, 200);  
+    box-shadow: 0 0 10px 2px rgb(100, 100, 100);
+}
+
+section {
+    background-color: rgb(133, 109, 133);
+    margin: 3px;
+}
+
+img {
+    margin: 5px 15%;
+    width: 70%;
+    height: auto;
+    box-shadow: 0 0 20px 2px rgb(47, 36, 47);
+}
+
+h2, h1 {
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(62, 62, 193);
+}
+
+p {
+    text-align: center;
+}
