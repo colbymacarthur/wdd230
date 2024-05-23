@@ -2,20 +2,10 @@ const baseURL = "https://github.com/colbymacarthur/wdd230/";
 const linksURL = "https://github.com/colbymacarthur/wdd230/data/links.json";
 
 async function getLinks() {
-    try {
-        const response = await fetch(linksURL);
-        if (response.ok) {
-            const data = await response.json();
-            console.log(data);
-            // displayWeather(data);
-        }
-        else {
-            throw Error(await response.text());
-        }
-    }
-    catch (error) {
-        console.log(error);
-    }
+    const response = await fetch(linksURL);
+    const data = await response.json();
+    console.table(data.prophets);
+    // displayProphets(data.prophets);
 }
 
 getLinks();
