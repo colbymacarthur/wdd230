@@ -3,7 +3,7 @@ const linksURL = "https://github.com/colbymacarthur/wdd230/data/links.json";
 
 async function getLinks() {
     try {
-        const response = await fetch(linksurl);
+        const response = await fetch(linksURL);
         if (response.ok) {
             const data = await response.json();
             console.log(data);
@@ -17,3 +17,5 @@ async function getLinks() {
         console.log(error);
     }
 }
+
+getLinks();
