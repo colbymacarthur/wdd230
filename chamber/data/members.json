@@ -65,4 +65,32 @@
         "address": "440 Queen Street Westview, NJ",
         "phonenumber": "(201) 626-7034",
         "website": "https://www.LittleBrookPark.com",
-        "imageURL": 
+        "imageURL": "images/littlePark.webp",
+        "membershipLevel": "Silver",
+        "description": "Gather with your friends and family at Little Brook Park, home to the best playground and walking path to Wanda's Orchard"
+      },
+  
+      {
+        "name": "Senor Scratchy's Frozen Treats",
+        "address": "7642 Rock Creek Road Westview, NJ",
+        "phonenumber": "(201) 421-8673",
+        "website": "https://www.SenorScratchy'sFrozenTreats.com",
+        "imageURL": "images/bunny.webp",
+        "membershipLevel": "Gold",
+        "description": "Come to Senor Scratchy's lair and cool of with a frozen treat"
+      },
+  
+      {
+        "name": "Dr. Strange's Magic Relics",
+        "address": "7645 Windfall Circle Westview, NJ",
+        "phonenumber": "(201) 722-8945",
+        "website": "https://www.Dr.Strange'sMagicRelics.com",
+        "imageURL": "images/museum.webp",
+        "membershipLevel": "Gold",
+        "description":"Are you interested in the mystic arts? Dr. Strange's Magic Relics is a museum filled with ancient artifacts and mysteries waiting to be discovered by you brought to you by the Scarlet Witch"
+      }
+  
+  
+    ]
+  
+  }
