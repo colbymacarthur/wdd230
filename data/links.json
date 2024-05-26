@@ -1,6 +1,6 @@
 {
     "weeks": [
-        { 
+        {  
             "week": "Week 1",
             "links": [
                 {
@@ -27,6 +27,27 @@
                 {
                     "url": "https://codepen.io/Colby-MacArthur/pen/QWPXgJR",
                     "title": "Codepen Hamburger"
+                },
+                {
+                    "url": "week02/bom.html",
+                    "title": "Book of Mormon scriptures"
+                }
+            ]
+        },
+        {  
+            "week": "Week 1",
+            "links": [
+                {
+                    "url": "week01/holygrail.html",
+                    "title": "Holy Grail Layout"
+                },
+                {
+                    "url": "week01/media-query.html",
+                    "title": "Media Query"
+                },
+                {
+                    "url": "week01/chamber-site-plan.html",
+                    "title": "Chamber Site Plan"
                 }
             ]
         }

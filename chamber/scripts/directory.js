@@ -1,5 +1,24 @@
-const requestURL = 'https://colbymacarthur.github.io/wdd230/chamber/directory/data.json';
+const requestURL = 'https://colbymacarthur.github.io/wdd230/chamber/data/members.json';
 const cards = document.querySelector('.cards');
+
+async function apiFetch() {
+    try {
+        const response = await fetch(requestURL);
+        if (response.ok) {
+            const data = await response.json();
+            console.log(data);
+            // displayWeather(data);
+        }
+        else {
+            throw Error(await response.text());
+        }
+    }
+    catch (error) {
+        console.log(error);
+    }
+}
+
+
 fetch(requestURL)
 .then(function (response) {
   return response.json();
@@ -46,18 +65,4 @@ const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
 const display = document.querySelector(".cards");
 
-// The following code could be written cleaner. How? We may have to simplfiy our HTMl and think about a default view.
-
-listbutton.addEventListener("click", showList); // example using defined function
-
-function showList() {
-    display.classList.add("list");
-    display.classList.remove("cards");
-}
-
-gridbutton.addEventListener("click",showGrid);
-
-function showGrid(){
-    display.classList.add("cards");
-    display.classList.remove("list");
-}
+// The following code could be wri
