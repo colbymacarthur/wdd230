@@ -35,19 +35,65 @@
             ]
         },
         {  
-            "week": "Week 1",
+            "week": "Week 3",
             "links": [
                 {
-                    "url": "week01/holygrail.html",
-                    "title": "Holy Grail Layout"
+                    "url": "week03/images/landscape.webp",
+                    "title": "WebP"
                 },
                 {
-                    "url": "week01/media-query.html",
-                    "title": "Media Query"
+                    "url": "week03/lazyload.html",
+                    "title": "Lazy Loading"
                 },
                 {
-                    "url": "week01/chamber-site-plan.html",
-                    "title": "Chamber Site Plan"
+                    "url": "week03/responsive-images.html",
+                    "title": "Responsive Images"
+                },
+                {
+                    "url": "week03/bom.html",
+                    "title": "New Book of Mormon scriptures"
+                }
+            ]
+        },
+        {
+            "week": "Week 4",
+            "links": [
+                {
+                    "url": "https://codepen.io/Colby-MacArthur/pen/xxNwZXN",
+                    "title": "Pseudo-Classes"
+                },
+                {
+                    "url": "week04/images/screenshot.png",
+                    "title": "Combinator Exercise"
+                },
+                {
+                    "url": "week04/tablebuild.html",
+                    "title": "Table"
+                },
+                {
+                    "url": "week04/form/index.html",
+                    "title": "Form Building"
+                }
+            ]
+        },
+        {
+            "week": "Week 5",
+            "links": [
+                {
+                    "url": "https://codepen.io/Colby-MacArthur/pen/VwOaeGJ",
+                    "title": "Selector CodePen"
+                },
+                {
+                    "url": "week05/new-ward-members.json",
+                    "title": "JSON data"
+                },
+                {
+                    "url": "week05/prophets.html",
+                    "title": "Prophets"
+                },
+                {
+                    "url": "week05/weather.html",
+                    "title": "Weather"
                 }
             ]
         }
