@@ -1,93 +1,83 @@
 {
     "businesses": [{
         "name": "Pania Bakery",
-        "address": "199 Evergreen Drive Westview, NJ",
-        "phonenumber": "(201) 327-9863",
-        "website": "https://www.Agatha'sRunesandPotions.darkhold",
-        "imageURL": "images/agathasLogo.webp",
-        "membershipLevel": "Gold",
-        "description": "Magic Shop Full of Enchantment and Spells"
-  
+        "address": "Calle 24 #32 Colonia Centro",
+        "phonenumber": "938-119-9370",
+        "website": "pania.com.mx",
+        "imageURL": "images/pania.webp",
+        "membershipLevel": "Gold"
       },
   
       {
-        "name": "Pietro's Spy Detective Agency",
-        "address": "790 North Shady Avenue Westview, NJ",
-        "phonenumber": "(201) 456-5282",
-        "website": "https://www.Pietro'sGonnaSnoop.com",
-        "imageURL": "images/pietrosLogo.webp",
-        "membershipLevel": "Silver",
-        "description": "Detective agency awarded as the world's Most Solved Cases in Private Investigation"
+        "name": "Azul Playa",
+        "address": "Avenido Paseo del Mar Colonia Justo Sierra",
+        "phonenumber": "938-123-4567",
+        "website": "azulplaya.com.mx",
+        "imageURL": "images/azul.webp",
+        "membershipLevel": "Silver"
       },
   
       {
-        "name": "Monica's Soul Searching Counseling Agency",
-        "address": "348 Windfall Road Westview, NJ",
-        "phonenumber": "(201) 935-4275",
-        "website": "https://www.SoulSearching.com",
-        "imageURL": "images/monicaLogo.webp",
-        "membershipLevel": "Gold",
-        "description": "Face your truth and learn to accept who you are at Monica's Soul Searching Counseling Agency"
+        "name": "Hotel Victoria",
+        "address": "Calle 28 #45 Colonia Centro",
+        "phonenumber": "938-456-1234",
+        "website": "hotelvictoria.com",
+        "imageURL": "images/victoria.webp",
+        "membershipLevel": "Gold"
       },
   
       {
-        "name": "Paradise Cove",
-        "address": "7807 Glenlake Drive Westview, NJ",
-        "phonenumber": "(201) 678-5349",
-        "website": "https://www.ParadiseCove.com",
-        "imageURL": "images/paradiseCove.webp",
-        "membershipLevel": "Gold",
-        "description": "Escape to a world of peace at Paradise Cove Restaurant."
+        "name": "Jimgo",
+        "address": "Calle 47 #67 Colonia Caleta",
+        "phonenumber": "938-678-3456",
+        "website": "jimgo.com",
+        "imageURL": "images/jimgo.webp",
+        "membershipLevel": "Gold"
       },
   
       {
-        "name": "Darcy's Gemini Observatory",
-        "address": "633 Amherst Lane Westview, NJ",
-        "phonenumber": "(201) 298-7348",
-        "website": "https://www.Darcy'sGeminiObservatory.com",
-        "imageURL": "images/darcyLogo.webp",
-        "membershipLevel": "Bronze",
-        "description": "Discover the Stars and See a glimpse of your past and future at Darcy's Gemini Observatory"
+        "name": "Madre Fuego",
+        "address": "Calle 55 #244 Colonia Morelos",
+        "phonenumber": "938-456-6787",
+        "website": "madrefuego.com",
+        "imageURL": "images/madrefuego.webp",
+        "membershipLevel": "Bronze"
       },
   
       {
-        "name": "Wanda and Vision's Tiers of Love ",
-        "address": "795 Honey Creek Lane Westview, NJ",
-        "phonenumber": "(201) 721-4568",
-        "website": "https://www.WandaAndVision'sTiersofCake.com",
-        "imageURL": "images/bakery.webp",
-        "membershipLevel": "Gold",
-        "description": "Every Cake is baked with our tears of love"
+        "name": "Dimo Plasticos",
+        "address": "Calle 32 #83 Colonia Hector Perez",
+        "phonenumber": "938-890-6543",
+        "website": "dimo.com",
+        "imageURL": "images/dimo.webp",
+        "membershipLevel": "Gold"
       },
   
       {
-        "name": "Little Brook Park",
-        "address": "440 Queen Street Westview, NJ",
-        "phonenumber": "(201) 626-7034",
-        "website": "https://www.LittleBrookPark.com",
-        "imageURL": "images/littlePark.webp",
-        "membershipLevel": "Silver",
-        "description": "Gather with your friends and family at Little Brook Park, home to the best playground and walking path to Wanda's Orchard"
+        "name": "Carne Mart",
+        "address": "Carretera #456 Colonia Chechen",
+        "phonenumber": "938-987-5432",
+        "website": "carnemart.com",
+        "imageURL": "images/carne.webp",
+        "membershipLevel": "Silver"
       },
   
       {
-        "name": "Senor Scratchy's Frozen Treats",
-        "address": "7642 Rock Creek Road Westview, NJ",
-        "phonenumber": "(201) 421-8673",
-        "website": "https://www.SenorScratchy'sFrozenTreats.com",
-        "imageURL": "images/bunny.webp",
-        "membershipLevel": "Gold",
-        "description": "Come to Senor Scratchy's lair and cool of with a frozen treat"
+        "name": "Madeleine",
+        "address": "Calle 53 #145 Colonia Morelos",
+        "phonenumber": "938-174-2839",
+        "website": "madeleine.com",
+        "imageURL": "images/madeleine.webp",
+        "membershipLevel": "Gold"
       },
   
       {
-        "name": "Dr. Strange's Magic Relics",
-        "address": "7645 Windfall Circle Westview, NJ",
-        "phonenumber": "(201) 722-8945",
-        "website": "https://www.Dr.Strange'sMagicRelics.com",
-        "imageURL": "images/museum.webp",
-        "membershipLevel": "Gold",
-        "description":"Are you interested in the mystic arts? Dr. Strange's Magic Relics is a museum filled with ancient artifacts and mysteries waiting to be discovered by you brought to you by the Scarlet Witch"
+        "name": "Pasteles Duran",
+        "address": "Calle 30 #73 Colonia Guadalupe",
+        "phonenumber": "938-347-9275",
+        "website": "duran.com",
+        "imageURL": "images/duran.webp",
+        "membershipLevel": "Gold"
       }
   
   

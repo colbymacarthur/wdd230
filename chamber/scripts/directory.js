@@ -1,24 +1,6 @@
 const requestURL = 'https://colbymacarthur.github.io/wdd230/chamber/data/members.json';
 const cards = document.querySelector('.cards');
 
-async function apiFetch() {
-    try {
-        const response = await fetch(requestURL);
-        if (response.ok) {
-            const data = await response.json();
-            console.log(data);
-            // displayWeather(data);
-        }
-        else {
-            throw Error(await response.text());
-        }
-    }
-    catch (error) {
-        console.log(error);
-    }
-}
-
-
 fetch(requestURL)
 .then(function (response) {
   return response.json();
@@ -44,8 +26,7 @@ function displayBusinesses(businesses) {
     p1.textContent = 
     `Address: ${businesses["address"]}
     Phonenumber: ${businesses["phonenumber"]}
-    Website: ${businesses["website"]}
-    Description: ${businesses["description"]}`;
+    Website: ${businesses["website"]}`;
   
     
     logo.setAttribute('src', `${businesses["imageURL"]}`);
@@ -57,12 +38,24 @@ function displayBusinesses(businesses) {
     card.appendChild(p1);
    
     document.querySelector('div.cards section').appendChild(card);
-
-  }
+}
 
 
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
 const display = document.querySelector(".cards");
 
-// The following code could be wri
+
+listbutton.addEventListener("click", showList); 
+
+function showList() {
+    display.classList.add("list");
+    display.classList.remove("cards");
+}
+
+gridbutton.addEventListener("click",showGrid);
+
+function showGrid(){
+    display.classList.add("cards");
+    display.classList.remove("list");
+}
