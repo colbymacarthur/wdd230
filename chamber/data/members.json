@@ -4,7 +4,7 @@
         "address": "Calle 24 #32 Colonia Centro",
         "phonenumber": "938-119-9370",
         "website": "pania.com.mx",
-        "imageURL": "images/pania.webp",
+        "imageURL": "images/pania_logo.webp",
         "membershipLevel": "Gold"
       },
   
@@ -13,7 +13,7 @@
         "address": "Avenido Paseo del Mar Colonia Justo Sierra",
         "phonenumber": "938-123-4567",
         "website": "azulplaya.com.mx",
-        "imageURL": "images/azul.webp",
+        "imageURL": "images/azul_logo.webp",
         "membershipLevel": "Silver"
       },
   
@@ -22,7 +22,7 @@
         "address": "Calle 28 #45 Colonia Centro",
         "phonenumber": "938-456-1234",
         "website": "hotelvictoria.com",
-        "imageURL": "images/victoria.webp",
+        "imageURL": "images/victoria_logo.webp",
         "membershipLevel": "Gold"
       },
   
@@ -31,7 +31,7 @@
         "address": "Calle 47 #67 Colonia Caleta",
         "phonenumber": "938-678-3456",
         "website": "jimgo.com",
-        "imageURL": "images/jimgo.webp",
+        "imageURL": "images/jimgo_logo.webp",
         "membershipLevel": "Gold"
       },
   

@@ -281,3 +281,45 @@ footer p {
 
 /* -------- Directory ----------*/
 
+#view {
+    margin: 5px auto;
+    width: 95%;
+}
+
+.grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+	grid-gap: 5px;
+	align-items: center;
+}
+
+.businessData {
+    border: 3px solid #016637;
+	box-shadow: 0 0 10px #333;
+    padding: 5px;
+}
+
+.grid h2 {
+    text-align: center;
+}
+
+.grid img {
+	border: 1px solid #fff;
+	box-shadow: 0 0 10px #333;
+    height: 75px;
+	max-width: 100%;
+    margin: 0 25%;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list img {
+	display: none; 
+}
+
+.list :nth-child(even) {
+	background-color: #c9fce4;
+}

@@ -2,16 +2,16 @@ const requestURL = 'https://colbymacarthur.github.io/wdd230/chamber/data/members
 const members = document.querySelector('#view');
 
 fetch(requestURL)
-.then(function (response) {
+    .then(function (response) {
   return response.json();
 })
-.then(function (jsonObject) { 
+    .then(function (jsonObject) { 
 const businesses = jsonObject['businesses'];
-  businesses.forEach(displayBusinesses);
+    businesses.forEach(displayBusinesses);
 });
 
 let s1 = document.createElement('section');
-document.querySelector('div.grid').appendChild(s1);
+document.querySelector('#view').appendChild(s1);
 
 function displayBusinesses(businesses) {
     let card = document.createElement('div');
@@ -28,7 +28,6 @@ function displayBusinesses(businesses) {
     Phonenumber: ${businesses["phonenumber"]}
     Website: ${businesses["website"]}`;
   
-    
     logo.setAttribute('src', `${businesses["imageURL"]}`);
     logo.setAttribute('alt', `Logo of ${businesses["name"]}`);
     logo.setAttribute('loading', 'lazy');
@@ -37,25 +36,22 @@ function displayBusinesses(businesses) {
     card.appendChild(logo);
     card.appendChild(p1);
    
-    document.querySelector('article.view section').appendChild(card);
+    document.querySelector('#view').appendChild(card);
 }
 
 
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
-const display = document.querySelector("article.view section");
+const display = document.querySelector("article");
+display.classList.add("grid");
 
+gridbutton.addEventListener("click", () => {
+	display.classList.add("grid");
+	display.classList.remove("list");
+});
 
-listbutton.addEventListener("click", showList); 
-
-function showList() {
+listbutton.addEventListener("click", () => {
     display.classList.add("list");
-    display.classList.remove("grid");
-}
+	display.classList.remove("grid");
+});
 
-gridbutton.addEventListener("click",showGrid);
-
-function showGrid(){
-    display.classList.add("grid");
-    display.classList.remove("list");
-}
