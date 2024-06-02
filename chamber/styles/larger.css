@@ -23,6 +23,10 @@
         font-size: 2rem;
     }
 
+    .weather {
+        width: 50%;
+    }
+
     /* Discover */
     .discover {
         display: grid;

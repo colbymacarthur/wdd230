@@ -27,5 +27,4 @@ const displayWeather = (data) => {
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', desc);
     currentTemp.innerHTML = `${data.main.temp}&deg;F - ${desc}`;
-
 }

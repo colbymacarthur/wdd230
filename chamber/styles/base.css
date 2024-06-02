@@ -146,6 +146,32 @@ h1 {
     width: 100px;
 }
 
+.weather {
+    display: block;
+    text-align: center;
+    background-color: wheat;
+    width: 90%;
+    margin: 5px auto 10px auto;
+    padding-bottom: 10px;
+    border: 2px solid black;
+}
+
+.weather h2 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#forecast-list {
+    display: flex;
+    justify-content: center;
+}
+
+.forecast-item {
+    padding: 10px;
+    border: 2px solid black;
+    margin: 2px;
+}
+
 footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -252,4 +278,6 @@ footer p {
 .thankyou h2 {
     text-align: center;
 }
+
+/* -------- Directory ----------*/
 
