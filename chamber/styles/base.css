@@ -281,6 +281,18 @@ footer p {
 
 /* -------- Directory ----------*/
 
+.menu {
+    display: flex;
+    margin: auto 40%;
+}
+
+.menu button {
+    width: 100px; 
+    height: 50px; 
+    font-size: 16px; 
+    margin: 10px 25px;
+}
+
 #view {
     margin: 5px auto;
     width: 95%;
@@ -308,7 +320,7 @@ footer p {
 	box-shadow: 0 0 10px #333;
     height: 75px;
 	max-width: 100%;
-    margin: 0 25%;
+    margin: 5px 25%;
 }
 
 .list {

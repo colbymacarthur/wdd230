@@ -16,17 +16,20 @@ document.querySelector('#view').appendChild(s1);
 function displayBusinesses(businesses) {
     let card = document.createElement('div');
     let h2 = document.createElement('h2');
-    let p1 = document.createElement('p');
+    let address = document.createElement('p');
+    let phone = document.createElement('p');
+    let website = document.createElement('p');
+    let member = document.createElement('p');
+
     let logo = document.createElement('img');
 
     logo.className = 'businessImg';
     card.className = 'businessData';
-    p1.className = 'card-desc';
-    h2.textContent = `${businesses["name"]}`
-    p1.textContent = 
-    `Address: ${businesses["address"]}
-    Phonenumber: ${businesses["phonenumber"]}
-    Website: ${businesses["website"]}`;
+    h2.textContent = `${businesses["name"]}`;
+    address.textContent = `Address: ${businesses["address"]}`;
+    phone.textContent = `Phone number: ${businesses["phonenumber"]}`
+    website.textContent = `Website: ${businesses["website"]}`
+    member.textContent = `Membership: ${businesses[membershipLevel]}`
   
     logo.setAttribute('src', `${businesses["imageURL"]}`);
     logo.setAttribute('alt', `Logo of ${businesses["name"]}`);
@@ -34,8 +37,11 @@ function displayBusinesses(businesses) {
 
     card.appendChild(h2);
     card.appendChild(logo);
-    card.appendChild(p1);
-   
+    card.appendChild(address);
+    card.appendChild(phone);
+    card.appendChild(website);
+    card.appendChild(member);
+
     document.querySelector('#view').appendChild(card);
 }
 
