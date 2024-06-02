@@ -40,7 +40,7 @@
         "address": "Calle 55 #244 Colonia Morelos",
         "phonenumber": "938-456-6787",
         "website": "madrefuego.com",
-        "imageURL": "images/madrefuego.webp",
+        "imageURL": "images/madrefuego_logo.webp",
         "membershipLevel": "Bronze"
       },
   
@@ -58,7 +58,7 @@
         "address": "Carretera #456 Colonia Chechen",
         "phonenumber": "938-987-5432",
         "website": "carnemart.com",
-        "imageURL": "images/carne.webp",
+        "imageURL": "images/carnemart.webp",
         "membershipLevel": "Silver"
       },
   
