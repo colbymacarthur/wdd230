@@ -20,7 +20,6 @@ function displayBusinesses(businesses) {
     let phone = document.createElement('p');
     let website = document.createElement('p');
     let member = document.createElement('p');
-
     let logo = document.createElement('img');
 
     logo.className = 'businessImg';
@@ -29,7 +28,7 @@ function displayBusinesses(businesses) {
     address.textContent = `Address: ${businesses["address"]}`;
     phone.textContent = `Phone number: ${businesses["phonenumber"]}`
     website.textContent = `Website: ${businesses["website"]}`
-    member.textContent = `Membership: ${businesses[membershipLevel]}`
+    member.textContent = `Membership: ${businesses["membershipLevel"]}`
   
     logo.setAttribute('src', `${businesses["imageURL"]}`);
     logo.setAttribute('alt', `Logo of ${businesses["name"]}`);
