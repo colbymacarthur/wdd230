@@ -80,6 +80,26 @@ header {
     font-size: 1.5rem;
 }
 
+#banner {
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: none; /* Initially hidden with 'closed' class */
+  }
+  
+  #banner.closed {
+    display: none;
+  }
+  
+  #closeBanner {
+    float: right;
+    cursor: pointer;
+  }
+
 header img {
     padding: 1rem;
 }
@@ -277,6 +297,15 @@ footer p {
 
 .thankyou h2 {
     text-align: center;
+}
+
+/* -------- Directory ----------*/
+.discover h1 {
+    color: black;
+}
+
+.dcard:hover {
+    transform: scale(1.1);
 }
 
 /* -------- Directory ----------*/
