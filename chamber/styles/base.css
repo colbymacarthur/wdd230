@@ -207,6 +207,14 @@ footer p {
 
 /* discover */
 
+.discover h1 {
+    color: black;
+}
+
+.dcard:hover {
+    transform: scale(1.1);
+}
+
 .galery {
     display: grid;
     width: 90%;
@@ -222,7 +230,7 @@ footer p {
     height: auto;
 }
 
-.dcard p {
+.dcard figcaption {
     position: relative;
     bottom: 2.5rem;
     left: 15%;
@@ -299,14 +307,6 @@ footer p {
     text-align: center;
 }
 
-/* -------- Directory ----------*/
-.discover h1 {
-    color: black;
-}
-
-.dcard:hover {
-    transform: scale(1.1);
-}
 
 /* -------- Directory ----------*/
 
