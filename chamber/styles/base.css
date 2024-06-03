@@ -98,7 +98,7 @@ h1 {
 
 .banner {
     width: 100%;
-    height: 250px;
+    height: auto;
     object-fit: cover;
     object-position: center;
 }
@@ -283,7 +283,7 @@ footer p {
 
 .menu {
     display: flex;
-    margin: auto 40%;
+    justify-content: center;
 }
 
 .menu button {
@@ -309,6 +309,7 @@ footer p {
     border: 3px solid #016637;
 	box-shadow: 0 0 10px #333;
     padding: 5px;
+    margin: 5px;
 }
 
 .grid h2 {
@@ -320,7 +321,6 @@ footer p {
 	box-shadow: 0 0 10px #333;
     height: 75px;
 	max-width: 100%;
-    margin: 5px 25%;
 }
 
 .list {
@@ -330,8 +330,4 @@ footer p {
 
 .list img {
 	display: none; 
-}
-
-.list :nth-child(even) {
-	background-color: #c9fce4;
 }
