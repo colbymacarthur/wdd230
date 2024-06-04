@@ -6,9 +6,9 @@ const today = new Date().getDay(); // 0 (Sunday) to 6 (Saturday)
 const showDays = [1, 2, 3]; // Monday = 1, Tuesday = 2, Wednesday = 3
 
 if (showDays.includes(today)) {
-  banner.classList.remove('closed'); // Remove 'closed' class to show the banner
+  banner.classList.remove('closed'); 
 }
 
 closeButton.addEventListener('click', () => {
-  banner.classList.add('closed'); // Add 'closed' class to hide the banner again
+  banner.classList.add('closed'); 
 });

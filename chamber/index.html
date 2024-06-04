@@ -27,7 +27,11 @@
     <header>
         <img class="banner" src="images/hero-image.webp" alt="Lady with laptop">
         <h1 class="bannerText">Ciudad del Carmen <br> Chamber of Commerce</h1>
-        <button class="join">Join Now</button>
+        <div class="button-container">
+            <button class="join">
+                <a href="join.html">Join Now</a>
+            </button>
+        </div>
     </header>
     <button id="menu"></button>
     <!-- <div id="mode">
@@ -36,92 +40,74 @@
     <main>
         <div id="banner" class="closed">
             <p>Join us for the Chamber of Commerce Meet and Greet this Wednesday at 7:00 PM!</p>
-            <button id="closeBanner">Close</button>
+            <button id="closeBanner">❌</button>
         </div>
+
         <h1>Events</h1>
-        <div class="event">
-            <h2>Event 1</h2>
-            <p>Event 1 description</p>
-        </div>
-        <div class="event">
-            <h2>Event 2</h2>
-            <p>Event 2 description</p>
-        </div>
+        <section class="events">
+            <div class="event">
+                <h2>Meet the new mayor</h2>
+                <p>Mayor Lazarus will meet with business owners and talk about his plan to help the local economy. All are welcome</p>
+                <p>Thursday 6:00 in Town Hall.</p>
+            </div>
+            <div class="event">
+                <h2>County Fair Signups</h2>
+                <p>Come participate in this years fair. General meeting to review general rules and requirements</p>
+                <p>Monday 7:00 pm at the Expo Center</p>
+            </div>
+        </section>
         <hr>
         <h1>Organizations</h1>
         <div class="organization">
             <div class="card">
-                <img src="images/amhm-logo.jpeg" alt="Hotels and Motels logo">
+                <img src="images/ahla.webp" alt="Hotels and Motels logo">
                 <h2>American Hotel & Lodging Association</h2>
                 <p>Largest US hotel association, advocating for lodging businesses & fostering industry growth.</p>
             </div>
             <div class="card">
-                <img src="images/amhm-logo.jpeg" alt="Hotels and Motels logo">
-                <h2>AMHM</h2>
-                <p>Asosiation of Hotels and Motels</p>
+                <img src="images/cpa.webp" alt="American Institute of Certified Public Accountants">
+                <h2>AICPA</h2>
+                <p>The American Institute of Certified Public Accountants (AICPA) is the national professional organization for Certified Public Accountants (CPAs) in the United States. It sets ethical standards for the profession, offers resources and support to its members, and advocates for the interests of CPAs.</p>
+            </div>
+            <div class="card">
+                <img src="images/place_holder.webp" alt="Logo from organization">
+                <h2>Pending</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi mollitia, necessitatibus ut architecto 
                     quaerat illo consequuntur expedita ex eos ipsa reprehenderit numquam non est. Tempora, ipsa. Ad tempora 
                     aspernatur blanditiis modi dolore, eos laborum quibusdam magnam praesentium aut assumenda tempore id 
                     excepturi consequatur debitis nemo ut, ex, similique cumque eum?</p>
             </div>
             <div class="card">
-                <img src="images/amhm-logo.jpeg" alt="Hotels and Motels logo">
-                <h2>AMHM</h2>
-                <p>Asosiation of Hotels and Motels</p>
+                <img src="images/place_holder.webp" alt="Logo from organization">
+                <h2>Pending</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi mollitia, necessitatibus ut architecto 
                     quaerat illo consequuntur expedita ex eos ipsa reprehenderit numquam non est. Tempora, ipsa. Ad tempora 
                     aspernatur blanditiis modi dolore, eos laborum quibusdam magnam praesentium aut assumenda tempore id 
                     excepturi consequatur debitis nemo ut, ex, similique cumque eum?</p>
             </div>
             <div class="card">
-                <img src="images/amhm-logo.jpeg" alt="Hotels and Motels logo">
-                <h2>AMHM</h2>
-                <p>Asosiation of Hotels and Motels</p>
+                <img src="images/place_holder.webp" alt="Logo from organization">
+                <h2>Pending</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi mollitia, necessitatibus ut architecto 
                     quaerat illo consequuntur expedita ex eos ipsa reprehenderit numquam non est. Tempora, ipsa. Ad tempora 
                     aspernatur blanditiis modi dolore, eos laborum quibusdam magnam praesentium aut assumenda tempore id 
                     excepturi consequatur debitis nemo ut, ex, similique cumque eum?</p>
             </div>
             <div class="card">
-                <img src="images/amhm-logo.jpeg" alt="Hotels and Motels logo">
-                <h2>AMHM</h2>
-                <p>Asosiation of Hotels and Motels</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi mollitia, necessitatibus ut architecto 
-                    quaerat illo consequuntur expedita ex eos ipsa reprehenderit numquam non est. Tempora, ipsa. Ad tempora 
-                    aspernatur blanditiis modi dolore, eos laborum quibusdam magnam praesentium aut assumenda tempore id 
-                    excepturi consequatur debitis nemo ut, ex, similique cumque eum?</p>
-            </div>
-            <div class="card">
-                <img src="images/amhm-logo.jpeg" alt="Hotels and Motels logo">
-                <h2>AMHM</h2>
-                <p>Asosiation of Hotels and Motels</p>
+                <img src="images/place_holder.webp" alt="Logo from organization">
+                <h2>Pending</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi mollitia, necessitatibus ut architecto 
                     quaerat illo consequuntur expedita ex eos ipsa reprehenderit numquam non est. Tempora, ipsa. Ad tempora 
                     aspernatur blanditiis modi dolore, eos laborum quibusdam magnam praesentium aut assumenda tempore id 
                     excepturi consequatur debitis nemo ut, ex, similique cumque eum?</p>
             </div>
         </div>
+
+        <hr>
         <h1>Local businesses</h1>
-        <div class="spotlight">
-            <div class="business">
-                <img src="images/pania_logo.png" alt="">
-                <h2>Pania Panaderia</h2>
-                <p>Pan artesanal hecho de los mejores ingredientes Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                    Eaque aut illum repellendus magnam rem placeat repellat ex illo ut consectetur.</p>
-            </div>
-            <div class="business">
-                <img src="images/pania_logo.png" alt="">
-                <h2>Pania Panaderia</h2>
-                <p>Pan artesanal hecho de los mejores ingredientes Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                    Eaque aut illum repellendus magnam rem placeat repellat ex illo ut consectetur.</p>
-            </div>
-            <div class="business">
-                <img src="images/pania_logo.png" alt="">
-                <h2>Pania Panaderia</h2>
-                <p>Pan artesanal hecho de los mejores ingredientes Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                    Eaque aut illum repellendus magnam rem placeat repellat ex illo ut consectetur.</p>
-            </div>
-        </div>
+        <div class="spotlight"></div>
+        
+        <hr>
         <div >
             <h1>Current Weather</h1>
                 <div class="weather">
@@ -143,5 +129,6 @@
     <script src="scripts/script.js"></script>
     <script src="scripts/weather.js"></script>
     <script src="scripts/banner.js"></script>
+    <script src="scripts/spotlight.js"></script>
 </body>
 </html>

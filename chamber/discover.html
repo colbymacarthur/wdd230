@@ -27,7 +27,11 @@
     <header>
         <img class="banner" src="images/hero-image.webp" alt="Lady with laptop">
         <h1 class="bannerText">Ciudad del Carmen <br> Chamber of Commerce</h1>
-        <button class="join">Join Now</button>
+        <div class="button-container">
+            <button class="join">
+                <a href="join.html">Join Now</a>
+            </button>
+        </div>
     </header>
     <button id="menu"></button>
     <!-- <div id="mode">
@@ -53,8 +57,7 @@
             </div>
             <div class="card">
                 <h2>Website visits</h2>
-                <p><span>Number of Visits: </span><span class="visits"></span></p>
-                <p><span>Today: </span><span class="today"></span></p>
+                <div id="visits"></div>
 
             </div>
         </section>
@@ -112,5 +115,6 @@
         <p id="lastModified"></p>
     </footer>
     <script src="scripts/script.js"></script>
+    <script src="scripts/visits.js"></script>
 </body>
 </html>
