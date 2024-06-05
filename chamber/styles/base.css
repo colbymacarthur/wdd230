@@ -121,6 +121,7 @@ header img {
     width: 100px;
     height: 50px;
     background-color: aliceblue;
+    cursor: pointer; 
 }
 
 .join a {
@@ -211,7 +212,7 @@ h1 {
 
 .spotlight img {
     max-width: 100px;
-    max-height: auto;
+    height: auto;
 }
 
 .business {
@@ -380,7 +381,7 @@ footer p {
 }
 
 
-/* -------- Directory ----------*/
+/* -------------- Directory ---------------*/
 
 .menu {
     display: flex;
